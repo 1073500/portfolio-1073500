@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import Header from "./Header.jsx";
 
 function Projects() {
@@ -71,33 +71,33 @@ function Projects() {
                     {projects.map((project) => (
                         <div
                             key={project.id}
-                            className="bg-gray-900 hover:scale-110 duration-300 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow "
+                            className="bg-blue-700 transition-transform duration-300 ease-out  hover:scale-110 rounded-2xl overflow-hidden "
                         >
-                            <div className="relative overflow-hidden bg-gray-600 m-4 rounded-2xl">
+                            <div className="relative overflow-hidden bg-gray-200 m-4 rounded-2xl">
                                 <img
                                     src={project.image}
                                     alt={project.title}
                                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                                 />
                             </div>
-                            <div className="p-6">
+                            <div className="bg-blue-600 m-4 rounded-2xl p-6">
                                 <h3 className="text-xl font-bold text-white mb-2">
                                     {project.title}
                                 </h3>
-                                <p className="text-gray-400 mb-4">
+                                <p className="text-gray-800 mb-4">
                                     {project.description}
                                 </p>
                                 <div className="flex flex-wrap gap-2">
                                     {project.tags.map((tag) => (
                                         <span
                                             key={tag}
-                                            className="bg-red-800 text-gray-900 hover:border hover:border-red-700 hover:text-red-500 px-3 py-1 rounded-full text-sm font-medium"
+                                            className="bg-red-800 text-white hover:border hover:border-red-700 hover:text-red-500 px-3 py-1 rounded-full text-sm font-medium"
                                         >
                       {tag}
                     </span>
                                     ))}
                                 </div>
-                                <a href="" className="text-gray-400 mb-4">
+                                <a href="" className="text-gray-800 mb-4">
                                     {project.link}
                                 </a>
                             </div>

@@ -19,7 +19,7 @@ function Contact() {
                             <div
                                 className="bg-gray-800 text-white bg-opacity-80  rounded-2xl overflow-hidden shadow-md m-4 p-6">
 
-                                <h2 className="bg-blue-600 p-4 rounded-3xl text-2xl font-bold mb-6">
+                                <h2 className="bg-red-800 p-4 rounded-3xl text-2xl font-bold mb-6">
                                     Contact Info
                                 </h2>
                                 <div className="grid md:grid-cols-2 gap-8 space-y-6">
