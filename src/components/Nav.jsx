@@ -1,24 +1,23 @@
 import {Link} from 'react-router-dom';
 import {useState} from 'react';
 import NavLink from "./NavLink.jsx";
-import Heart from '/moshi-heart.png'
+import Smile from '/smile-logo.svg'
 
 function Nav() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 
     return (
-        <header className="  m-4 sticky top-4 z-50 ">
+        <header className=" m-4 sticky top-4 z-50 ">
             <nav className="container mx-auto px-4 py-4">
-                <a href="/" target="_blank">
-                    <img src={Heart} className="logo w-20 " alt="Heart" />
-                </a>
-                <div className=" backdrop-blur-sm border bg-slate-900 bg-opacity-80 border-gray-800 rounded-full overflow-hidden shadow-md  p-2 pl-5 pr-5 2  flex items-center justify-between">
 
-                    <NavLink to="/">Home</NavLink>
-                    <NavLink to="/about">Over Mij</NavLink>
-                    <NavLink to="/projects">Projecten</NavLink>
-                    <NavLink to="/contact">Contact</NavLink>
+                <div className=" bg-opacity-80 backdrop-blur-sm bg-opacity-80 rounded-full overflow-hidden p-1 pl-5 pr-5 2 flex items-center justify-between hover:bg-blue-600">
+                    <NavLink to="/" target="_blank">
+                        <img src={Smile} className="w-16 h-16 origin-center transition-transform duration-700 ease-in-out hover:rotate-[360deg] hover:scale-110 logo w-16 " alt="Smile logo" />
+                    </NavLink>
+                    <NavLink to="/about">OVER MIJ</NavLink>
+                    <NavLink to="/projects">PROJECTEN</NavLink>
+                    <NavLink to="/contact">CONTACT</NavLink>
 
                     <button
                         onClick={() => setIsMenuOpen(!isMenuOpen)}

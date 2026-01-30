@@ -4,7 +4,7 @@ function NavLink({ to, children }) {
     return (
         <Link
             to={to}
-            className="text-white hover:text-blue-600 transition font-medium"
+            className="text-white hover:text-red-700 transition font-normal"
         >
             {children}
         </Link>
