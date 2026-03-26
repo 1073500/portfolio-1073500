@@ -15,6 +15,7 @@ function Nav() {
                     <NavLink to="/" target="_blank">
                         <img src={Smile} className="w-16 h-16 origin-center transition-transform duration-700 ease-in-out hover:rotate-[360deg] hover:scale-110 logo w-16 " alt="Smile logo" />
                     </NavLink>
+
                     <NavLink to="/about">OVER MIJ</NavLink>
                     <NavLink to="/projects">PROJECTEN</NavLink>
                     <NavLink to="/contact">CONTACT</NavLink>

@@ -1,14 +1,43 @@
 @import "tailwindcss";
 
-body {
-    font-family: "Climate Crisis", sans-serif;
+:root {
+    --sports-green: #029D48;
+    --soccer-green: #177642;
+    --tracks-pink: #FF8C6D;
+    --basketball-red: #D44018;
+    --note-yellow: #FED13D;
+    --pencil-yellow: #E0AA35;
+    --pool-blue: #0065B3;
+    --all-white: #FFFFFF;
+    --paperclip-gray: #B1B1B1;
+    --asfalt-black: #1E1E1E;
 }
+
+#root{
+    background: var(--sports-green);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: var(--all-white);
+    background: var(--all-white);
+}
+
 
 h1 {
-    font-weight: bold;
+    font-family: "Rubik Bubbles", system-ui;
+    font-size: 10rem;
+    color: var(--note-yellow);
+    text-shadow: 8px 8px 0px var(--soccer-green);
 }
 
-h2, h3 {
+h2 {
+    font-family: "Rubik Bubbles", system-ui;
+    font-size: 8rem;
+    text-shadow: 8px 8px 0px var(--soccer-green);
+}
+
+h3 {
     font-weight: 400;
 }
 
@@ -18,11 +47,12 @@ a {
 }
 
 p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-style: italic;
+    font-size: 1.7rem;
+    font-weight: 600;
 }
 
-.skills, .contact{
+.skills, .contact {
     font-family: "Poppins", sans-serif;
     font-weight: 900;
 }
