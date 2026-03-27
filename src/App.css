@@ -69,6 +69,17 @@ p {
         pointer-events: none;
         z-index: 999;
     }
+    @keyframes swing {
+        0%   { transform: rotate(0deg); }
+        25%  { transform: rotate(-15deg); }
+        75%  { transform: rotate(15deg); }
+        100% { transform: rotate(0deg); }
+    }
+
+    .keychain:hover {
+        animation: swing 0.5s ease-in-out infinite;
+        transform-origin: top center;
+    }
 }
 
 .skills, .contact {

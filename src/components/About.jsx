@@ -16,7 +16,8 @@ function About() {
                             </h1>
                         </div>
                         <div>
-                            <img src="/public/picture.svg" alt="logo" className="w-64 h-64"/>
+                            <img  src="/public/comp-note.svg" alt="logo" className="w-124 h124"/>
+                            <p>dscsd</p>
                         </div>
                     </div>
                 </section>
