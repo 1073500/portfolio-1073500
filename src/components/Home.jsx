@@ -1,5 +1,4 @@
-import AButton from "../components/AButton";
-import Heart from "/moshi-heart.png";
+import {Link} from "react-router-dom";
 
 function Home() {
     return (
@@ -20,25 +19,30 @@ function Home() {
                     </div>
                     <div className="relative w-96 h-96 mx-auto">
 
-                        {/* Keyring — midden bovenaan */}
                         <img
                             src="/comp-keyring.svg"
                             alt="keyring"
                             className="absolute w-100 h-100 left-1/2 -translate-x-1/2 top-0 z-0"
-                            style={{ top: '-100px'}}
+                            style={{top: '-100px'}}
                         />
 
-                        <div title="contact" className="keychain absolute cursor-pointer" style={{ top: '95px', left: '70px', rotate: '-40deg', transformOrigin: 'top center' }}>
-                            <img src="/comp-keyring-cont.svg" alt="keychain" className="w-80 h-80" />
+                        <div title="contact" className="keychain absolute cursor-pointer"
+                             style={{top: '95px', left: '70px', rotate: '-40deg', transformOrigin: 'top center'}}>
+                            <img src="/comp-keyring-cont.svg" alt="projects" className="w-80 h-80"/>
                         </div>
 
-                        <div title="about me" className="keychain absolute cursor-pointer" style={{ top: '110px', left: '45px',  }}>
-                            <img src="/comp-keyring-abme.svg" alt="keychain" className="w-80 h-80" />
-                        </div>
-
-                        <div title="projects" className="keychain absolute cursor-pointer" style={{ top: '60px', right: '30px', rotate: '30deg', transformOrigin: 'top center' }}>
-                            <img src="/comp-keyring-prof.svg" alt="keychain" className="w-80 h-80" />
-                        </div>
+                        <Link to="/about">
+                            <div title="about me" className="keychain absolute cursor-pointer"
+                                 style={{top: '110px', left: '45px',}}>
+                                <img src="/comp-keyring-abme.svg" alt="about-me" className="w-80 h-80"/>
+                            </div>
+                        </Link>
+                        <Link to="/projects">
+                            <div title="projects" className="keychain absolute cursor-pointer"
+                                 style={{top: '60px', right: '30px', rotate: '30deg', transformOrigin: 'top center'}}>
+                                <img src="/comp-keyring-prof.svg" alt="contact" className="w-80 h-80"/>
+                            </div>
+                        </Link>
 
                     </div>
                 </div>
