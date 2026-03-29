@@ -71,16 +71,16 @@ function Projects() {
                     {projects.map((project) => (
                         <div
                             key={project.id}
-                            className="bg-blue-700 transition-transform duration-300 ease-out  hover:scale-110 rounded-2xl overflow-hidden "
+                            className="bg-white transition-transform duration-300 ease-out p-4 hover:scale-110 overflow-hidden "
                         >
-                            <div className="relative overflow-hidden bg-gray-200 m-4 rounded-2xl">
+                            <div className="relative overflow-hidden bg-gray-200 m-4 ">
                                 <img
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                                 />
                             </div>
-                            <div className="bg-blue-600 m-4 rounded-2xl p-6">
+                            <div className=" m-4 rounded-2xl p-6">
                                 <h3 className="text-xl font-bold text-white mb-2">
                                     {project.title}
                                 </h3>
@@ -91,7 +91,7 @@ function Projects() {
                                     {project.tags.map((tag) => (
                                         <span
                                             key={tag}
-                                            className="bg-red-800 text-white hover:border hover:border-red-700 hover:text-red-500 px-3 py-1 rounded-full text-sm font-medium"
+                                            className="text-black hover:border hover:text-blue-500 px-3 py-1 rounded-full text-sm font-medium"
                                         >
                       {tag}
                     </span>
