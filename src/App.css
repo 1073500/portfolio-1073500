@@ -15,48 +15,65 @@
 
 #root{
     background: var(--sports-green);
+
+    background-image: url('/public/groene-graslandschap-in-schilderstijl.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 body {
     font-family: "Inter", sans-serif;
     color: var(--all-white);
     background: var(--all-white);
+
 }
 
 
 h1 {
     font-family: "Rubik Bubbles", system-ui;
-    font-size: 10rem;
-    color: var(--note-yellow);
+    font-size: clamp(4rem, 6vw, 6rem);
+    color: var(--all-white);
     text-shadow: 8px 8px 0px var(--soccer-green);
+}
+
+text {
+        font-family: "Rubik Bubbles", system-ui;
+        font-size: clamp(6rem, 10vw, 10rem);
+        color: var(--note-yellow);
+        text-shadow: 8px 8px 0px var(--soccer-green);
 }
 
 header{
     font-family: "Rubik Bubbles", system-ui;
-    font-size: 10rem;
+    font-size: clamp(4rem, 7vw, 7rem);
     color: var(--all-white);
     text-shadow: 8px 8px 0px var(--soccer-green);
 }
 
 h2 {
     font-family: "Rubik Bubbles", system-ui;
-    font-size: 8rem;
+    font-size: clamp(2rem, 4vw, 4rem);
     text-shadow: 8px 8px 0px var(--soccer-green);
 }
 
 h3 {
-    font-weight: 400;
+    font-weight: 600;
+    color: #1E1E1E;
 }
 
 a {
-    font-weight: 200;
-    font-style: normal;
+    font-weight: 500;
+    font-style: italic;
 }
 
 p {
     font-style: italic;
-    font-size: 1.7rem;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
     font-weight: 600;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0px var(--soccer-green);
 }
 
 @layer base {
@@ -77,7 +94,7 @@ p {
     }
 
     .keychain:hover {
-        animation: swing 0.5s ease-in-out infinite;
+        animation: swing 0.8s ease-in-out infinite;
         transform-origin: top center;
     }
 }

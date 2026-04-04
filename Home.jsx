@@ -1,18 +1,26 @@
 import {Link} from "react-router-dom";
+import { useEffect } from 'react';
 
 function Home() {
+    useEffect(() => {
+        document.body.style.overflow = 'hidden';
+
+        return () => {
+            document.body.style.overflow = 'auto'; // zet het terug als je wegnavigeerd
+        };
+    }, []);
     return (
         <div className="">
             <section className="py-20 m-6 md:m-24">
-                <div className="flex items-center justify-around">
+                <div className="fixed flex items-center justify-around">
                     <div className="flex flex-col  px-2 md:px-4 ">
-                        <h1 className="text-note-yellow  text-5xl sm:text-6xl md:text-9xl mb-4 md:mb-6">
-                            MADYA
-                        </h1>
+                        <text className="text-note-yellow  text-5xl sm:text-6xl md:text-9xl mb-4 md:mb-6">
+                            0000
+                        </text>
 
-                        <h2 className="text-3xl sm:text-4xl md:text-6xl mb-4 md:mb-6">
-                            DA SILVA
-                        </h2>
+                        <h1 className="text-3xl sm:text-4xl md:text-6xl mb-4 md:mb-6">
+                            00 000
+                        </h1>
                         <p>
                             Student Creative Media and Game Technologies
                         </p>

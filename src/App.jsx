@@ -1,10 +1,10 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
-import Home from './components/Home.jsx';
+import Home from '../Home.jsx';
 import About from './components/About.jsx';
-import Projects from './components/Projects.jsx';
-import Contact from './components/Contact.jsx';
+import Projects from '../Projects.jsx';
+import Contact from '../Contact.jsx';
 function App() {
     return (
         <BrowserRouter>

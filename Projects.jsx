@@ -1,5 +1,5 @@
 
-import Header from "./Header.jsx";
+import Header from "./src/components/Header.jsx";
 
 function Projects() {
 
@@ -56,11 +56,11 @@ function Projects() {
 
 
     return (
-        <div className="min-h-screen  py-12">
+        <div className="min-h-screen py-12 px-8">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
                     <Header>
-                        Projecten
+                        PROJECTS
                     </Header>
                     <p className="text-xl  text-gray-800 mb-8">
                         Een aantal projecten waaraan ik heb gewerkt
@@ -71,33 +71,33 @@ function Projects() {
                     {projects.map((project) => (
                         <div
                             key={project.id}
-                            className="bg-white transition-transform duration-300 ease-out p-4 hover:scale-110 overflow-hidden "
+                            className="bg-white filter-[drop-shadow(8px_8px_0px_#177642)] transition-transform duration-300 ease-out p-2 hover:scale-105 overflow-hidden "
                         >
-                            <div className="relative overflow-hidden bg-gray-200 m-4 ">
+                            <div className="relative overflow-hidden bg-gray-200 m-2">
                                 <img
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                                    className="w-full h-36 object-cover transition-transform duration-300"
                                 />
                             </div>
-                            <div className=" m-4 rounded-2xl p-6">
-                                <h3 className="text-xl font-bold text-white mb-2">
+                            <div className="m-2 p-3">
+                                <h3 className="text-sm font-bold mb-1">
                                     {project.title}
                                 </h3>
-                                <p className="text-gray-800 mb-4">
+                                <a className="text-gray-800 text-xs mb-2">
                                     {project.description}
-                                </p>
-                                <div className="flex flex-wrap gap-2">
+                                </a>
+                                <div className="flex flex-wrap gap-1">
                                     {project.tags.map((tag) => (
                                         <span
                                             key={tag}
-                                            className="text-black hover:border hover:text-blue-500 px-3 py-1 rounded-full text-sm font-medium"
+                                            className="text-black hover:border hover:text-blue-500 px-2 py-0.5 rounded-full text-xs font-medium"
                                         >
-                      {tag}
-                    </span>
+                            {tag}
+                        </span>
                                     ))}
                                 </div>
-                                <a href="" className="text-gray-800 mb-4">
+                                <a href="" className="text-gray-800 text-xs">
                                     {project.link}
                                 </a>
                             </div>
