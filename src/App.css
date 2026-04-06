@@ -1,14 +1,16 @@
 @import "tailwindcss";
+@tailwind utilities;
 
 :root {
-    --sports-green: #029D48;
+    --sports-green: #56a843;
     --soccer-green: #177642;
+    --recess-green: #B8DD58;
     --tracks-pink: #FF8C6D;
     --basketball-red: #D44018;
     --note-yellow: #FED13D;
     --pencil-yellow: #E0AA35;
     --pool-blue: #0065B3;
-    --all-white: #FFFFFF;
+    --all-white: #ffffff;
     --paperclip-gray: #B1B1B1;
     --asfalt-black: #1E1E1E;
 }
@@ -16,7 +18,7 @@
 #root{
     background: var(--sports-green);
 
-    background-image: url('/public/groene-graslandschap-in-schilderstijl.png');
+    background-image: url('/public/grasland.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,14 +28,14 @@
 body {
     font-family: "Inter", sans-serif;
     color: var(--all-white);
-    background: var(--all-white);
+    background: var(--soccer-green);
 
 }
 
 
 h1 {
     font-family: "Rubik Bubbles", system-ui;
-    font-size: clamp(4rem, 6vw, 6rem);
+    font-size: clamp(2rem, 6vw, 6rem);
     color: var(--all-white);
     text-shadow: 8px 8px 0px var(--soccer-green);
 }
@@ -41,13 +43,13 @@ h1 {
 text {
         font-family: "Rubik Bubbles", system-ui;
         font-size: clamp(6rem, 10vw, 10rem);
-        color: var(--note-yellow);
+        color: var(--recess-green);
         text-shadow: 8px 8px 0px var(--soccer-green);
 }
 
 header{
     font-family: "Rubik Bubbles", system-ui;
-    font-size: clamp(4rem, 7vw, 7rem);
+    font-size: clamp(3rem, 7vw, 7rem);
     color: var(--all-white);
     text-shadow: 8px 8px 0px var(--soccer-green);
 }
@@ -55,17 +57,23 @@ header{
 h2 {
     font-family: "Rubik Bubbles", system-ui;
     font-size: clamp(2rem, 4vw, 4rem);
-    text-shadow: 8px 8px 0px var(--soccer-green);
+    text-shadow: 6px 6px 0px var(--soccer-green);
 }
 
 h3 {
-    font-weight: 600;
-    color: #1E1E1E;
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    color: var(--recess-green);
+    text-shadow: 2px 2px 0px var(--soccer-green);
 }
 
 a {
     font-weight: 500;
-    font-style: italic;
+}
+
+.contact{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(1rem, 1vw, 1rem);
 }
 
 p {
@@ -75,6 +83,8 @@ p {
     color: #FFFFFF;
     text-shadow: 2px 2px 0px var(--soccer-green);
 }
+
+
 
 @layer base {
     .noise::after {

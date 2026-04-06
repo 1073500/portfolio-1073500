@@ -11,15 +11,15 @@ function Home() {
     }, []);
     return (
         <div className="">
-            <section className="py-20 m-6 md:m-24">
-                <div className="fixed flex items-center justify-around">
-                    <div className="flex flex-col  px-2 md:px-4 ">
-                        <text className="text-note-yellow  text-5xl sm:text-6xl md:text-9xl mb-4 md:mb-6">
-                            0000
+            <section className="w-full ">
+                <div className="fixed grid md:grid-cols-2 gap-16 justify-items-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                    <div className="flex flex-col px-2 md:px-4 ">
+                        <text className="text-note-yellow text-5xl sm:text-6xl md:text-9xl mb-4 md:mb-6">
+                            MADYA
                         </text>
 
                         <h1 className="text-3xl sm:text-4xl md:text-6xl mb-4 md:mb-6">
-                            00 000
+                            DA SILVA
                         </h1>
                         <p>
                             Student Creative Media and Game Technologies
@@ -35,14 +35,14 @@ function Home() {
                         />
 
                         <div title="contact" className="keychain absolute cursor-pointer"
-                             style={{top: '95px', left: '70px', rotate: '-40deg', transformOrigin: 'top center'}}>
-                            <img src="/comp-keyring-cont.svg" alt="projects" className="w-80 h-80"/>
+                             style={{top: '110px', left: '135px', rotate: '-40deg', transformOrigin: 'top center'}}>
+                            <img src="/contact-key.svg" alt="projects" className="w-50 h-50"/>
                         </div>
 
                         <Link to="/about">
                             <div title="about me" className="keychain absolute cursor-pointer"
-                                 style={{top: '110px', left: '45px',}}>
-                                <img src="/comp-keyring-abme.svg" alt="about-me" className="w-80 h-80"/>
+                                 style={{top: '120px', left: '75px',}}>
+                                <img src="/ab-me-key.svg" alt="about-me" className="w-60 h-60"/>
                             </div>
                         </Link>
                         <Link to="/projects">

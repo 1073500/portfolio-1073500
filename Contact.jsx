@@ -17,12 +17,8 @@ function Contact() {
                     <div className="">
                         <div className="space-y-8">
                             <div
-                                className="bg-gray-800 text-white bg-opacity-80  rounded-2xl overflow-hidden shadow-md m-4 p-6">
-
-                                <h2 className="bg-red-800 p-4 rounded-3xl text-2xl font-bold mb-6">
-                                    Contact Info
-                                </h2>
-                                <div className="grid md:grid-cols-2 gap-8 space-y-6">
+                                className="text-white bg-[#177642] m-4 p-6">
+                                <div className="justify-center grid md:grid-cols-2 gap-8 space-y-6 bg-[#56a843] p-4 rounded-2xl">
                                     <div className="flex items-start">
                                         <div>
                                             <h3 className="font-semibold  mb-1">Persoonlijk mail</h3>
@@ -63,7 +59,7 @@ function Contact() {
 
 
                             {/* Availability */}
-                            <div className="bg-blue-700 hover:border-red-700 hover:bg-red-800 border border-blue-600 rounded-2xl shadow-lg p-8 text-white transition-transform duration-300 hover:scale-110">
+                            <div className="  p-8 text-white ">
                                 <h2 className="text-2xl font-bold mb-4">
                                     Op zoek naar stage!
                                 </h2>

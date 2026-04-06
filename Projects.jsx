@@ -6,63 +6,82 @@ function Projects() {
     const projects = [
         {
             id: 1,
-            title: 'RockSQL',
-            description: 'Fullstack',
-            tags: ['Laravel', 'Herd', 'Tailwind CSS'],
-            image: 'https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=E-commerce',
-            link: '#'
+            title: 'Portfolio',
+            description: 'Front-end',
+            tags: ['Javascript', 'React', 'Tailwind CSS', 'Vite'],
+            image: './public/portfolio.png',
+            link: 'https://github.com/1073500/portfolio-1073500.git'
         },
         {
             id: 2,
-            title: 'DrawingPrompts',
-            description: 'Fullstack',
-            tags: ['React', 'Tailwind CSS', 'Vite', 'Express', 'Node.js', 'MongoDB'],
-            image: 'https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Portfolio',
-            link: '#'
+            title: 'Connectar',
+            description: 'UI/UX Design',
+            tags: ['Figma'],
+            image: './public/connectar-sg.png',
+            link: 'https://www.figma.com/design/8uhNI8DSbxQbWwb7q642mF/Connectar-styleguide?node-id=0-1&p=f&t=XuSAwetUoZPecttG-0'
         },
         {
             id: 3,
-            title: 'Portfolio',
-            description: 'Front-end',
-            tags: ['React', 'Tailwind CSS', 'Vite'],
-            image: 'https://via.placeholder.com/400x300/10B981/FFFFFF?text=Task+Manager',
-            link: '#'
+            title: 'RockSQL',
+            description: 'Fullstack project',
+            tags: ['Laravel', 'Herd', 'Tailwind CSS', 'PHP', 'MySQL', 'Blade'],
+            image: 'https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=E-commerce',
+            link: 'https://github.com/1073500/rocksql.git'
         },
         {
             id: 4,
+            title: 'Gemeente Rotterdam',
+            description: 'UI/UX Design',
+            tags: ['Figma'],
+            image: './public/gr-wireframe.png',
+            link: 'https://www.figma.com/design/536mbq0rJ068NJ8WUB3hRC/Style-guide-gemeente-Rotterdam?node-id=0-1&t=fJr3z67SFNG53lLM-1'
+        },
+
+        {
+            id: 5,
+            title: 'DrawingPrompts',
+            description: 'Back-end',
+            tags: ['React', 'Tailwind CSS', 'Vite', 'Express', 'Node.js', 'MongoDB'],
+            image: './public/drawingprompts.png',
+            link: 'https://github.com/1073500/prg06-eindopdracht-back-end.git'
+        },
+
+        {
+            id: 6,
             title: 'WandelWild',
             description: 'Back-end',
             tags: ['Laravel', 'Herd', 'Tailwind CSS'],
-            image: 'https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Blog',
-            link: '#'
+            image: './public/wandelwild.png',
+            link: 'https://github.com/qixel2003/TLE2.git'
         },
         {
-            id: 5,
-            title: 'Hocus Focus',
+            id: 7,
+            title: 'Cyberspot',
+            description: 'UI/UX Design, fullstack coming soon...',
+            tags: ['Figma'],
+            image: './public/cyberspot.png',
+            link: 'https://www.figma.com/design/XiU7tpR3axPAj33bRdFhpF/CyberSpot?m=auto&t=35skklVR3TFMyet4-6'
+        },
+        {
+            id: 8,
+            title: 'Portfolio Styleguide',
             description: 'UI/UX Design',
             tags: ['Figma'],
-            image: 'https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Weather',
-            link: '#nkkjn'
+            image: './public/gr-wireframe.png',
+            link: 'https://www.figma.com/design/UYgu8QZCacQA6I0ZOqCmiz/Portfolio-26?m=auto&t=35skklVR3TFMyet4-6'
         },
-        {
-            id: 6,
-            title: 'Persoonlijk Project',
-            description: 'Fullstack',
-            tags: ['...'],
-            image: 'https://via.placeholder.com/400x300/6366F1/FFFFFF?text=Dashboard',
-            link: '#'
-        }
+
     ];
 
 
     return (
         <div className="min-h-screen py-12 px-8">
             <div className="container mx-auto px-4">
-                <div className="text-center mb-12">
+                <div id="projects" className="text-center mb-12">
                     <Header>
                         PROJECTS
                     </Header>
-                    <p className="text-xl  text-gray-800 mb-8">
+                    <p className="  text-gray-800 mb-8">
                         Een aantal projecten waaraan ik heb gewerkt
                     </p>
                 </div>
@@ -97,7 +116,7 @@ function Projects() {
                         </span>
                                     ))}
                                 </div>
-                                <a href="" className="text-gray-800 text-xs">
+                                <a href="" className="hover:text-[#177642] text-gray-800 text-xs">
                                     {project.link}
                                 </a>
                             </div>

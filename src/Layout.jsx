@@ -4,7 +4,7 @@ import Nav from './components/Nav.jsx';
 function Layout() {
     return (
         <div className=" flex flex-col ">
-            {/*<Nav />*/}
+            <Nav />
 
             <main className="">
                 <Outlet />
