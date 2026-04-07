@@ -42,14 +42,14 @@ h1 {
 
 text {
         font-family: "Rubik Bubbles", system-ui;
-        font-size: clamp(6rem, 10vw, 10rem);
+        font-size: clamp(5rem, 10vw, 10rem);
         color: var(--recess-green);
         text-shadow: 8px 8px 0px var(--soccer-green);
 }
 
 header{
     font-family: "Rubik Bubbles", system-ui;
-    font-size: clamp(3rem, 7vw, 7rem);
+    font-size: clamp(2.5rem, 7vw, 7rem);
     color: var(--all-white);
     text-shadow: 8px 8px 0px var(--soccer-green);
 }

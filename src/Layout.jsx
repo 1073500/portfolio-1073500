@@ -1,15 +1,16 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import Nav from './components/Nav.jsx';
 
 function Layout() {
-    return (
-        <div className=" flex flex-col ">
-            <Nav />
+    const { pathname } = useLocation();
 
-            <main className="">
+    return (
+        <div className="flex flex-col">
+            {pathname !== '/' && <Nav />}
+
+            <main>
                 <Outlet />
             </main>
-
         </div>
     );
 }

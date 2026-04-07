@@ -7,12 +7,13 @@ function Nav() {
 
     return (
         <header className=" m-4 top-4 z-50 ">
-            <nav className="">
 
-                <div className=" overflow-hidden p-1 pl-5 pr-5 2 flex items-center gap-6 justify-between ">
+            <nav >
+
+                <div className=" overflow-hidden p-1 pl-2 pr-2  flex items-center gap-2 md:gap-4 justify-between ">
                     <NavLink to="/" target="_blank">
                         <img src={HomeIcon} title="Home"
-                             className=" w-16 h-16 origin-center transition-transform duration-700 ease-in-out hover:rotate-[360deg] hover:scale-110 logo w-16 "
+                             className=" min-w-10 min-h-10 shrink-0  w-18 h-18 origin-center transition-transform duration-700  hover:rotate-[360deg]  "
                              alt="Butterfly Home Button"/>
                     </NavLink>
                         <NavLink className="" to="/about">ABOUT</NavLink>
