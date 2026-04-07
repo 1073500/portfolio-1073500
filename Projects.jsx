@@ -1,4 +1,3 @@
-
 import Header from "./src/components/Header.jsx";
 
 function Projects() {
@@ -17,7 +16,7 @@ function Projects() {
             title: 'Connectar',
             description: 'UI/UX Design',
             tags: ['Figma'],
-            image: './public/connectar-sg.png',
+            image: '/connectar-sg.png',
             link: 'https://www.figma.com/design/8uhNI8DSbxQbWwb7q642mF/Connectar-styleguide?node-id=0-1&p=f&t=XuSAwetUoZPecttG-0'
         },
         {
@@ -33,7 +32,7 @@ function Projects() {
             title: 'Gemeente Rotterdam',
             description: 'UI/UX Design',
             tags: ['Figma'],
-            image: './public/gr-wireframe.png',
+            image: '/gr-wireframe.png',
             link: 'https://www.figma.com/design/536mbq0rJ068NJ8WUB3hRC/Style-guide-gemeente-Rotterdam?node-id=0-1&t=fJr3z67SFNG53lLM-1'
         },
 
@@ -42,7 +41,7 @@ function Projects() {
             title: 'DrawingPrompts',
             description: 'Back-end',
             tags: ['React', 'Tailwind CSS', 'Vite', 'Express', 'Node.js', 'MongoDB'],
-            image: './public/drawingprompts.png',
+            image: '/drawingprompts.png',
             link: 'https://github.com/1073500/prg06-eindopdracht-back-end.git'
         },
 
@@ -51,7 +50,7 @@ function Projects() {
             title: 'WandelWild',
             description: 'Back-end',
             tags: ['Laravel', 'Herd', 'Tailwind CSS'],
-            image: './public/wandelwild.png',
+            image: '/wandelwild.png',
             link: 'https://github.com/qixel2003/TLE2.git'
         },
         {
@@ -59,7 +58,7 @@ function Projects() {
             title: 'Cyberspot',
             description: 'UI/UX Design, fullstack coming soon...',
             tags: ['Figma'],
-            image: './public/cyberspot.png',
+            image: '/cyberspot.png',
             link: 'https://www.figma.com/design/XiU7tpR3axPAj33bRdFhpF/CyberSpot?m=auto&t=35skklVR3TFMyet4-6'
         },
         {
@@ -67,7 +66,7 @@ function Projects() {
             title: 'Portfolio Styleguide',
             description: 'UI/UX Design',
             tags: ['Figma'],
-            image: './public/gr-wireframe.png',
+            image: '/gr-wireframe.png',
             link: 'https://www.figma.com/design/UYgu8QZCacQA6I0ZOqCmiz/Portfolio-26?m=auto&t=35skklVR3TFMyet4-6'
         },
 
@@ -110,14 +109,16 @@ function Projects() {
                                     {project.tags.map((tag) => (
                                         <span
                                             key={tag}
-                                            className="text-black hover:border hover:text-blue-500 px-2 py-0.5 rounded-full text-xs font-medium"
+                                            className="text-black hover:border hover:hover:text-[#177642] px-2 py-0.5 rounded-full text-xs font-medium"
                                         >
                             {tag}
                         </span>
                                     ))}
+
                                 </div>
-                                <a href="" className="hover:text-[#177642] text-gray-800 text-xs">
-                                    {project.link}
+                                <a href={project.link} target="_blank" rel="noopener noreferrer"
+                                   className="block mt-2 hover:text-[#177642] text-gray-800 text-xs">
+                                    Bekijk project →
                                 </a>
                             </div>
                         </div>

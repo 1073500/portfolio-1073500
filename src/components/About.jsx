@@ -32,7 +32,7 @@ function About() {
                                 const angle = (360 / arr.length) * i;
                                 return (<div
                                     key={i}
-                                    className="absolute w-16 h-16 top-1/2 left-1/2 transition-transform duration-300 hover:scale-125 cursor-pointer"
+                                    className="absolute w-14 h-14 top-1/2 left-1/2 transition-transform duration-300 hover:scale-125 cursor-pointer"
                                     style={{
                                         transform: `rotate(${angle}deg) translate(90px) rotate(-${angle}deg) translate(-50%, -50%)`,
                                     }}
@@ -57,7 +57,7 @@ function About() {
                                 const angle = (360 / arr.length) * i;
                                 return (<div
                                     key={i}
-                                    className="absolute w-16 h-16 top-1/2 left-1/2 transition-transform duration-300 hover:scale-125 cursor-pointer"
+                                    className="absolute w-14 h-14 top-1/2 left-1/2 transition-transform duration-300 hover:scale-125 cursor-pointer"
                                     style={{
                                         transform: `rotate(${angle}deg) translate(90px) rotate(-${angle}deg) translate(-50%, -50%)`,
                                     }}

@@ -42,7 +42,7 @@ h1 {
 
 text {
         font-family: "Rubik Bubbles", system-ui;
-        font-size: clamp(5rem, 10vw, 10rem);
+        font-size: clamp(4.5rem, 10vw, 10rem);
         color: var(--recess-green);
         text-shadow: 8px 8px 0px var(--soccer-green);
 }
