@@ -72,8 +72,10 @@ a {
 }
 
 .contact{
+    font-style: italic;
     font-family: "Inter", sans-serif;
     font-size: clamp(1rem, 1vw, 1rem);
+    text-shadow: 2px 2px 0px var(--soccer-green);
 }
 
 p {
@@ -109,7 +111,4 @@ p {
     }
 }
 
-.skills, .contact {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-}
+

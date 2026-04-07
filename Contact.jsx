@@ -17,12 +17,12 @@ function Contact() {
                     <div className="">
                         <div className="space-y-8">
                             <div
-                                className="text-white bg-[#177642] m-4 p-6">
+                                className="text-white  m-4 p-6">
                                 <div className="justify-center grid md:grid-cols-2 gap-8 space-y-6 bg-[#56a843] p-4 rounded-2xl">
                                     <div className="flex items-start">
                                         <div>
                                             <h3 className="font-semibold  mb-1">Persoonlijk mail</h3>
-                                            <a href="mailto:madyadasilva@gmail.com" className="contact hover:text-blue-600">
+                                            <a href="mailto:madyadasilva@gmail.com" className="contact hover:text-[#56a843]">
                                                 madyadasilva@gmail.com
                                             </a>
                                         </div>
@@ -31,7 +31,7 @@ function Contact() {
                                     <div className="flex items-start">
                                         <div>
                                             <h3 className="font-semibold  mb-1">School Mail</h3>
-                                            <a href="mailto:1073500@hr.nl" className="contact hover:text-blue-600">
+                                            <a href="mailto:1073500@hr.nl" className="contact hover:text-[#56a843]">
                                                 1073500@hr.nl
                                             </a>
                                         </div>
@@ -40,7 +40,7 @@ function Contact() {
                                     <div className="flex items-start">
                                         <div>
                                             <h3 className="font-semibold  mb-1">Telefoon</h3>
-                                            <a href="tel:+31612345678" className="contact hover:text-blue-600">
+                                            <a href="tel:+31612345678" className="contact hover:text-[#56a843]">
                                                 +31 6 82 92 35 83
                                             </a>
                                         </div>
@@ -49,7 +49,7 @@ function Contact() {
                                     <div className="flex items-start">
                                         <div>
                                             <h3 className="font-semibold  mb-1">Github</h3>
-                                            <a href="https://github.com/1073500" className="contact hover:text-blue-600">
+                                            <a href="https://github.com/1073500" className="contact hover:text-[#56a843]">
                                                 1073500
                                             </a>
                                         </div>
@@ -58,7 +58,6 @@ function Contact() {
                             </div>
 
 
-                            {/* Availability */}
                             <div className="  p-8 text-white ">
                                 <h2 className="text-2xl font-bold mb-4">
                                     Op zoek naar stage!
