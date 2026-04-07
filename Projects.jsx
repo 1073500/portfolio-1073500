@@ -9,7 +9,7 @@ function Projects() {
             title: 'Portfolio',
             description: 'Front-end',
             tags: ['Javascript', 'React', 'Tailwind CSS', 'Vite'],
-            image: './public/portfolio.png',
+            image: '/portfolio.png',
             link: 'https://github.com/1073500/portfolio-1073500.git'
         },
         {
