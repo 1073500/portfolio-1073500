@@ -41,7 +41,7 @@ function Contact() {
                                         <div>
                                             <h3 className="font-semibold  mb-1">Telefoon</h3>
                                             <a href="tel:+31612345678" className="contact hover:text-[#56a843]">
-                                                +31 6 82 92 35 83
+                                                +00 0 00 00 00 00
                                             </a>
                                         </div>
                                     </div>
