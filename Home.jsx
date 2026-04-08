@@ -6,7 +6,7 @@ function Home() {
         document.body.style.overflow = 'hidden';
 
         return () => {
-            document.body.style.overflow = 'auto'; // zet het terug als je wegnavigeerd
+            document.body.style.overflow = 'auto';
         };
     }, []);
     return (

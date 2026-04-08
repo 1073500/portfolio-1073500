@@ -5,27 +5,27 @@ function About() {
 
         <div className="container mx-auto px-4 ">
             <section className="p-6 mb-6">
-                    <div className="text-center mb-5">
-                        <Header >
-                            ABOUT ME
-                        </Header>
-                    </div>
-                    <div className="text-center">
-                        <p className="text-black text-center">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur."
-                        </p>
-                    </div>
+                <div className="text-center mb-5">
+                    <Header>
+                        ABOUT ME
+                    </Header>
+                </div>
+                <div className="text-center">
+                    <p className=" ">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu fugiat nulla pariatur."
+                    </p>
+                </div>
             </section>
             <section className="w-full mb-12 justify-self-start gap-4 justify-between text-center">
                 <div className="flex flex-col mb-6 ">
-                    <h1 className="mb-6 md:text-end  ">Design</h1>
-                    <div className=" grid md:grid-cols-2 gap-12 justify-items-center mb-6 md:text-end">
+
+                    <div className=" grid md:grid-cols-2 gap-12 justify-items-center mb-12 md:text-end">
                         <div
-                            className="w-48 h-48 object-contain filter-[drop-shadow(6px_6px_0px_#177642)] relative">
+                            className="w-64 h-64 object-contain filter-[drop-shadow(6px_6px_0px_#177642)] relative">
                             {["https://vectorseek.com/wp-content/uploads/2025/07/canva-ai-Logo-PNG-SVG-Vector-01-300x300.png", "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg", "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/miro-icon.png", "https://iconape.com/wp-content/png_logo_vector/trello-3.png", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Inkscape_Logo.svg/1280px-Inkscape_Logo.svg.png", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/500px-Adobe_Illustrator_CC_icon.svg.png", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/960px-Adobe_Photoshop_CC_icon.svg.png",
 
                             ].map((src, i, arr) => {
@@ -41,14 +41,18 @@ function About() {
                                 </div>);
                             })}
                         </div>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea commodo consequat."</p>
+                        <div>
+                            <h1 className="mb-6 md:text-end  ">Design</h1>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat."</p>
+                        </div>
+
                     </div>
                 </div>
-                <div className="flex flex-col mb-6  ">
-                    <h1 className="mb-6 md:text-end text-sm">Development</h1>
+                <div className="flex flex-col mb-6 ">
+
                     <div className="grid md:grid-cols-2 gap-12 justify-items-center mb-6 md:text-end">
                         <div
                             className=" w-48 h-48 object-contain filter-[drop-shadow(6px_6px_0px_#177642)] relative">
@@ -66,12 +70,15 @@ function About() {
                                 </div>);
                             })}
                         </div>
+                        <div>
+                            <h1 className="mb-6 md:text-end text-sm">Development</h1>
                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                             pariatur."</p>
+                    </div>
                     </div>
                 </div>
             </section>

@@ -18,7 +18,7 @@ function Contact() {
                         <div className="space-y-8">
                             <div
                                 className="text-white  m-4 p-6">
-                                <div className="justify-center grid md:grid-cols-2 gap-8 space-y-6 bg-[#56a843] p-4 rounded-2xl">
+                                <div className="relative z-0 justify-center grid md:grid-cols-2 gap-8 space-y-6 bg-[#56a843] p-4 rounded-2xl">
                                     <div className="flex items-start">
                                         <div>
                                             <h3 className="font-semibold  mb-1">Persoonlijk mail</h3>
@@ -33,15 +33,6 @@ function Contact() {
                                             <h3 className="font-semibold  mb-1">School Mail</h3>
                                             <a href="mailto:1073500@hr.nl" className="contact hover:text-[#56a843]">
                                                 1073500@hr.nl
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex items-start">
-                                        <div>
-                                            <h3 className="font-semibold  mb-1">Telefoon</h3>
-                                            <a href="tel:+31612345678" className="contact hover:text-[#56a843]">
-                                                +00 0 00 00 00 00
                                             </a>
                                         </div>
                                     </div>
