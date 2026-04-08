@@ -13,7 +13,7 @@ function Home() {
         <div className="">
             <section className="w-full ">
                 <div className="fixed grid md:grid-cols-2 gap-24 justify-items-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                    <div className="flex flex-col px-2 md:px-4 items-center text-center md:items-start md:text-left">
+                    <div className="flex flex-col px-2 md:px-4 text-center md:items-start md:text-left">
                         <text className="md:text-left">
                             MADYA
                         </text>

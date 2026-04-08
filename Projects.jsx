@@ -35,15 +35,15 @@ function Projects() {
             image: '/gr-wireframe.png',
             link: 'https://www.figma.com/design/536mbq0rJ068NJ8WUB3hRC/Style-guide-gemeente-Rotterdam?node-id=0-1&t=fJr3z67SFNG53lLM-1'
         },
-
         {
             id: 5,
-            title: 'DrawingPrompts',
-            description: 'Back-end',
-            tags: ['React', 'Tailwind CSS', 'Vite', 'Express', 'Node.js', 'MongoDB'],
-            image: '/drawingprompts.png',
-            link: 'https://github.com/1073500/prg06-eindopdracht-back-end.git'
+            title: 'Cyberspot',
+            description: 'UI/UX Design, fullstack coming soon...',
+            tags: ['Figma'],
+            image: '/cyberspot.png',
+            link: 'https://www.figma.com/design/XiU7tpR3axPAj33bRdFhpF/CyberSpot?m=auto&t=35skklVR3TFMyet4-6'
         },
+
 
         {
             id: 6,
@@ -55,11 +55,11 @@ function Projects() {
         },
         {
             id: 7,
-            title: 'Cyberspot',
-            description: 'UI/UX Design, fullstack coming soon...',
-            tags: ['Figma'],
-            image: '/cyberspot.png',
-            link: 'https://www.figma.com/design/XiU7tpR3axPAj33bRdFhpF/CyberSpot?m=auto&t=35skklVR3TFMyet4-6'
+            title: 'DrawingPrompts',
+            description: 'Back-end',
+            tags: ['React', 'Tailwind CSS', 'Vite', 'Express', 'Node.js', 'MongoDB'],
+            image: '/drawingprompts.png',
+            link: 'https://github.com/1073500/prg06-eindopdracht-back-end.git'
         },
         {
             id: 8,

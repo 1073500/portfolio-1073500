@@ -4,8 +4,9 @@ import Crawler from './components/Crawler.jsx';
 
 const mieren = [
     {speed: 80, size: 52},
-    {speed: 120, size: 52},
-    {speed: 60, size: 52},
+    {speed: 80, size: 52},
+    {speed: 80, size: 52},
+    {speed: 80, size: 52},
 ];
 
 function Layout() {
