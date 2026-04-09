@@ -24,7 +24,7 @@ function Projects() {
             title: 'RockSQL',
             description: 'Fullstack project',
             tags: ['Laravel', 'Herd', 'Tailwind CSS', 'PHP', 'MySQL', 'Blade'],
-            image: 'https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=E-commerce',
+            image: '/rocksql-thumb.png',
             link: 'https://github.com/1073500/rocksql.git'
         },
         {
