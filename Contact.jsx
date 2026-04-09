@@ -54,7 +54,7 @@ function Contact() {
                                     Op zoek naar stage!
                                 </h2>
                                 <p className="text-gray-100">
-                                    Ik ben op zoek naaeen stageplek waar ik mezelf kan bewijzen
+                                    Ik ben op zoek naar een stageplek waar ik mezelf kan bewijzen
                                     als een echte creative developer, waar ik kan groeien en iets kan bijdragen.
                                     Voor de stageperiode ben ik beschikbaar van september tot februari of februari
                                     tot juli 2026-2027. Afwijkende datums zou ik kunnen overwegen.
