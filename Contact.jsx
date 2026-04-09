@@ -9,7 +9,7 @@ function Contact() {
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
                     <Header>
-                        Contact
+                        CONTACT
                     </Header>
                 </div>
 
@@ -54,7 +54,10 @@ function Contact() {
                                     Op zoek naar stage!
                                 </h2>
                                 <p className="text-gray-100">
-                                    Ik ben op zoek naar een uitdagende stage vanaf begin september, waar ik mijn (back -en/of front-end )programmeer skills kan verbeteren, nieuwe technologieën kan ontdekken en vooral veel kan leren in de praktijk.
+                                    Ik ben op zoek naar een stageplek waar ik mezelf kan bewijzen
+                                    als een echte creative developer, waar ik kan groeien en iets kan bijdragen.
+                                    Voor de stageperiode ben ik beschikbaar van september tot februari of februari
+                                    tot juli 2026-2027. Afwijkende datums zou ik kunnen overwegen.
                                 </p>
                             </div>
                         </div>

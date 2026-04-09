@@ -3,10 +3,10 @@ import Nav from './components/Nav.jsx';
 import Crawler from './components/Crawler.jsx';
 
 const mieren = [
-    {speed: 80, size: 52},
-    {speed: 80, size: 52},
-    {speed: 80, size: 52},
-    {speed: 80, size: 52},
+    {speed: 80, size: 46},
+    {speed: 80, size: 46},
+    {speed: 80, size: 46},
+    {speed: 80, size: 46},
 ];
 
 function Layout() {

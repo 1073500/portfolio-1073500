@@ -4,7 +4,7 @@ function NavLink({ to, children }) {
     return (
         <Link
             to={to}
-            className="text-sm text-[#B8DD58] hover:text-white transition"
+            id="navlink" className="hover:text-[var(--recess-green)]"
         >
             {children}
         </Link>

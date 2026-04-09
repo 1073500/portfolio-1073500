@@ -63,10 +63,10 @@ function Projects() {
         },
         {
             id: 8,
-            title: 'Portfolio Styleguide',
+            title: 'Portfolio Wireframes',
             description: 'UI/UX Design',
             tags: ['Figma'],
-            image: '/gr-wireframe.png',
+            image: '/portfolio-thumbnail.png',
             link: 'https://www.figma.com/design/UYgu8QZCacQA6I0ZOqCmiz/Portfolio-26?m=auto&t=35skklVR3TFMyet4-6'
         },
 
