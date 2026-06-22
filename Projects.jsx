@@ -5,9 +5,25 @@ function Projects() {
     const projects = [
         {
             id: 1,
+            title: 'Impakt UI',
+            description: 'UI/UX Design',
+            tags: ['Figma', 'WCAG'],
+            image: '/impakt-ui.png',
+            link: 'https://www.figma.com/design/MNeYNMEbiWvotinWqEtcoV/IMPAKT-wireframe?m=auto&t=cLRn89Ba2uOgV8sT-6'
+        },
+        {
+            id: 1,
+            title: 'Impakt backend',
+            description: 'Back-end',
+            tags: ['Javascript', 'React', 'Tailwind CSS', 'Vite', 'CRUD'],
+            image: '/impakt-banner.png',
+            link: 'https://github.com/martijnsark/TLE4-project-backend.git'
+        },
+        {
+            id: 1,
             title: 'Portfolio',
             description: 'Front-end',
-            tags: ['Javascript', 'React', 'Tailwind CSS', 'Vite'],
+            tags: ['Javascript', 'React', 'Tailwind CSS', 'Vite', 'Personal project'],
             image: '/portfolio.png',
             link: 'https://github.com/1073500/portfolio-1073500.git'
         },
@@ -15,7 +31,7 @@ function Projects() {
             id: 2,
             title: 'Connectar',
             description: 'UI/UX Design',
-            tags: ['Figma'],
+            tags: ['Figma', 'WCAG'],
             image: '/connectar-sg.png',
             link: 'https://www.figma.com/design/8uhNI8DSbxQbWwb7q642mF/Connectar-styleguide?node-id=0-1&p=f&t=XuSAwetUoZPecttG-0'
         },
@@ -39,7 +55,7 @@ function Projects() {
             id: 5,
             title: 'Cyberspot',
             description: 'UI/UX Design, fullstack coming soon...',
-            tags: ['Figma'],
+            tags: ['Figma', 'Personal project'],
             image: '/cyberspot.png',
             link: 'https://www.figma.com/design/XiU7tpR3axPAj33bRdFhpF/CyberSpot?m=auto&t=35skklVR3TFMyet4-6'
         },
@@ -65,7 +81,7 @@ function Projects() {
             id: 8,
             title: 'Portfolio Wireframes',
             description: 'UI/UX Design',
-            tags: ['Figma'],
+            tags: ['Figma', 'Personal project'],
             image: '/portfolio-thumbnail.png',
             link: 'https://www.figma.com/design/UYgu8QZCacQA6I0ZOqCmiz/Portfolio-26?m=auto&t=35skklVR3TFMyet4-6'
         },
