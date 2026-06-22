@@ -12,7 +12,7 @@ function Projects() {
             link: 'https://www.figma.com/design/MNeYNMEbiWvotinWqEtcoV/IMPAKT-wireframe?m=auto&t=cLRn89Ba2uOgV8sT-6'
         },
         {
-            id: 1,
+            id: 2,
             title: 'Impakt backend',
             description: 'Back-end',
             tags: ['Javascript', 'React', 'Tailwind CSS', 'Vite', 'CRUD'],
@@ -20,7 +20,7 @@ function Projects() {
             link: 'https://github.com/martijnsark/TLE4-project-backend.git'
         },
         {
-            id: 1,
+            id: 3,
             title: 'Portfolio',
             description: 'Front-end',
             tags: ['Javascript', 'React', 'Tailwind CSS', 'Vite', 'Personal project'],
@@ -28,7 +28,7 @@ function Projects() {
             link: 'https://github.com/1073500/portfolio-1073500.git'
         },
         {
-            id: 2,
+            id: 4,
             title: 'Connectar',
             description: 'UI/UX Design',
             tags: ['Figma', 'WCAG'],
@@ -36,7 +36,7 @@ function Projects() {
             link: 'https://www.figma.com/design/8uhNI8DSbxQbWwb7q642mF/Connectar-styleguide?node-id=0-1&p=f&t=XuSAwetUoZPecttG-0'
         },
         {
-            id: 3,
+            id: 5,
             title: 'RockSQL',
             description: 'Fullstack project',
             tags: ['Laravel', 'Herd', 'Tailwind CSS', 'PHP', 'MySQL', 'Blade'],
@@ -44,7 +44,7 @@ function Projects() {
             link: 'https://github.com/1073500/rocksql.git'
         },
         {
-            id: 4,
+            id: 6,
             title: 'Gemeente Rotterdam',
             description: 'UI/UX Design',
             tags: ['Figma'],
@@ -52,7 +52,7 @@ function Projects() {
             link: 'https://www.figma.com/design/536mbq0rJ068NJ8WUB3hRC/Style-guide-gemeente-Rotterdam?node-id=0-1&t=fJr3z67SFNG53lLM-1'
         },
         {
-            id: 5,
+            id: 7,
             title: 'Cyberspot',
             description: 'UI/UX Design, fullstack coming soon...',
             tags: ['Figma', 'Personal project'],
@@ -62,7 +62,7 @@ function Projects() {
 
 
         {
-            id: 6,
+            id: 8,
             title: 'WandelWild',
             description: 'Back-end',
             tags: ['Laravel', 'Herd', 'Tailwind CSS'],
@@ -70,7 +70,7 @@ function Projects() {
             link: 'https://github.com/qixel2003/TLE2.git'
         },
         {
-            id: 7,
+            id: 9,
             title: 'DrawingPrompts',
             description: 'Back-end',
             tags: ['React', 'Tailwind CSS', 'Vite', 'Express', 'Node.js', 'MongoDB'],
@@ -78,7 +78,7 @@ function Projects() {
             link: 'https://github.com/1073500/prg06-eindopdracht-back-end.git'
         },
         {
-            id: 8,
+            id: 10,
             title: 'Portfolio Wireframes',
             description: 'UI/UX Design',
             tags: ['Figma', 'Personal project'],
